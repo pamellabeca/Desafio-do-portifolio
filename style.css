@@ -39,10 +39,6 @@ footer{
     grid-area: rodapé;
 }
 
-.container{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
 .container .profile{
     height: 292px;
     width: 348px;
@@ -51,6 +47,7 @@ footer{
     border-radius: 15px;
     line-height: 1.5;
     text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .container .profile .image{
@@ -97,6 +94,7 @@ footer{
     background-color: #302F3D;
     margin: 20px;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
     text-align: left;
     padding: 30px 20px;
@@ -118,6 +116,7 @@ ol{
     border-radius: 15px;
     align-items: center;
     padding: 0 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
     text-align:left;    
 }
@@ -155,4 +154,10 @@ h2{
     align-items: center;
     padding: 0 15px;
     text-align: left;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container .experiences .nomeempresa{
+    font-size: 14px;
+    font-weight: 700;
 }
