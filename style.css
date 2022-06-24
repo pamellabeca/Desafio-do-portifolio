@@ -161,3 +161,17 @@ h2{
     font-size: 14px;
     font-weight: 700;
 }
+
+.container .experiences .data{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .experiences .cargo{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .experiences .empresas{
+    padding: 10px;
+}
