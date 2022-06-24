@@ -275,6 +275,22 @@ ul{
     grid-area: project1;
 }
 
+.corpo .linhas .project1 .iconsprojeto{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.corpo .linhas .project1 .textinho{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.corpo .linhas .project1 .iconsabaixo{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 
 
 
