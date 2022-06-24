@@ -223,7 +223,7 @@ ul{
     "recentposts recentposts"
     "post post"
     "vazio vazio";
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px 500px 500px;
     grid-template-columns: 50% 50%;
 
     align-items: center;
@@ -308,17 +308,17 @@ ul{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.iconsprojeto2{
+.corpo .linhas .project2 .iconsprojeto2{
     font-size: 16px;
     font-weight: 700;
 }
 
-.textinho2{
+.corpo .linhas .project2 .textinho2{
     font-size: 14px;
     font-weight: 500;
 }
 
-.iconsabaixo2{
+.corpo .linhas .project2 .iconsabaixo2{
     text-align: left;
     font-size: 14px;
     font-weight: 500;
