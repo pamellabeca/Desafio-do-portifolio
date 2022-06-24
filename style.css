@@ -187,3 +187,22 @@ h2{
     text-align: left;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.container .education .nomeinst{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .education .data{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .education .cargo{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .estudo{
+    padding: 10px;
+}
