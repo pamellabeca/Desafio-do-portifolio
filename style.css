@@ -214,6 +214,8 @@ ul{
 }
 
 .linhas{
+    margin: 20px;
+    
     display: grid;
     grid-template-areas: 
     "myproject myproject"
@@ -223,15 +225,24 @@ ul{
     "vazio vazio";
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 50% 50%;
+
+    align-items: center;
+    text-align: center;
 }
 
 .corpo .linhas .my-projects{
     width: 912px;
     height: 65px;
+
     background-color: #302F3D;
     border-radius: 15px;
+
     line-height: 1.5;
+
+    grid-area: myproject;
 }
+
+
 
 
 
