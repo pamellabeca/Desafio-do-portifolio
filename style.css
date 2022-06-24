@@ -213,6 +213,35 @@ ul{
     text-transform: uppercase;
 }
 
+.linhas{
+    display: grid;
+    grid-template-areas: 
+    "myproject myproject"
+    "project1 project2"
+    "recentposts recentposts"
+    "post post"
+    "vazio vazio";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .linhas .posts .imgpost img{
     margin-top: 50px;
     
