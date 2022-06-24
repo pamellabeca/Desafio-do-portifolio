@@ -175,3 +175,15 @@ h2{
 .container .experiences .empresas{
     padding: 10px;
 }
+
+.container .education{
+    height: 352px;
+    width: 348px;
+    background-color: #302F3D;
+    margin: 20px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 0 15px;
+    text-align: left;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
