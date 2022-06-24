@@ -38,3 +38,13 @@ main{
 footer{
     grid-area: rodapé;
 }
+
+.container .profile{
+    height: 292px;
+    width: 348px;
+    background-color: #302F3D;
+    margin: 20px;
+    border-radius: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
