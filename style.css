@@ -223,7 +223,7 @@ ul{
     "recentposts recentposts"
     "post post"
     "vazio vazio";
-    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-rows: 70px 200px 70px 1fr;
     grid-template-columns: 50% 50%;
 
     align-items: center;
@@ -231,7 +231,7 @@ ul{
 }
 
 .corpo .linhas .my-projects{
-    width: 912px;
+    width: 890px;
     height: 65px;
 
     background-color: #302F3D;
@@ -257,6 +257,7 @@ ul{
 }
 
 .corpo .linhas .project1{
+    margin-top: 20px;
 
     height: 186px;
     width: 420px;
@@ -292,12 +293,16 @@ ul{
 }
 
 .corpo .linhas .project2{
+    margin-top: 20px;
+
     height: 186px;
     width: 420px;
 
     background-color: #302F3D;
     margin-top: 25px;
+    margin-left: 0;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
     text-align: left;
     padding: 30px 20px;
@@ -305,20 +310,19 @@ ul{
     list-style-type: none;
 
     grid-area: project2;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.corpo .linhas .project2 .iconsprojeto2{
+.corpo .linhas .project2 .iconsprojeto{
     font-size: 16px;
     font-weight: 700;
 }
 
-.corpo .linhas .project2 .textinho2{
+.corpo .linhas .project2 .textinho{
     font-size: 14px;
     font-weight: 500;
 }
 
-.corpo .linhas .project2 .iconsabaixo2{
+.corpo .linhas .project2 .iconsabaixo{
     text-align: left;
     font-size: 14px;
     font-weight: 500;
@@ -347,4 +351,11 @@ ul{
     width: 125px;
     border-radius: 50%;
     border: 2px solid #00FF00;
+}
+
+.credits{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+
 }
