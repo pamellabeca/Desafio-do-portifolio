@@ -39,6 +39,10 @@ footer{
     grid-area: rodapé;
 }
 
+.container{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .container .profile{
     height: 292px;
     width: 348px;
@@ -96,7 +100,7 @@ footer{
 
     text-align: left;
     padding: 30px 20px;
-    line-height: 2.3;
+    line-height: 2.5;
     font-size: 13px;
     font-weight: 500;
 }
@@ -104,3 +108,4 @@ footer{
 ol{
     list-style-type: none;
 }
+
