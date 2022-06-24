@@ -121,3 +121,9 @@ ol{
 
     text-align:left;    
 }
+
+h2{
+    padding: 15px 20px;
+    font-size: 20;
+    font-weight: 700;
+}
