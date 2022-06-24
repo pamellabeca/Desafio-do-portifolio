@@ -215,7 +215,7 @@ ul{
 
 .linhas{
     margin: 20px;
-    
+
     display: grid;
     grid-template-areas: 
     "myproject myproject"
@@ -240,6 +240,19 @@ ul{
     line-height: 1.5;
 
     grid-area: myproject;
+}
+
+.otitulo{
+    text-align:left;
+    grid-area: direita;
+}
+
+.onavegavel{
+    grid-area: esquerda;
+    text-align: right;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
